@@ -6,6 +6,7 @@ import weatherDashboard from '../images/projects/Weather Dashboard.jpg';
 import workdayPlanner from '../images/projects/Workday Planner.png';
 import fitnessTracker from '../images/projects/Fitness Tracker.png';
 import noteTaker from '../images/projects/Note Taker.png';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Projects = () => {
     return (

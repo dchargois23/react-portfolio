@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class ThankYou extends Component {
     render() {

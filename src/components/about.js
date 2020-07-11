@@ -1,5 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const About = () => {
@@ -11,13 +12,25 @@ const About = () => {
                 </Col>
                 <Col className="background-info">
                     <ul>
-                        <li><h5>I obtained my M.S. degree in athletic training from California
-              University of Pennsylvania.</h5></li>
-                        <li><h5>I previously worked as a <b>head athletic trainer</b> for a
-              <b> professional ice hockey</b> team in the <b>ECHL.</b></h5></li>
-                        <li><h5>As of February 2019, I am an alumn of Flatiron School's online
-              <b> software engineering bootcamp.</b></h5></li>
-                        <li><h5>In August 2019, I helped Flatiron School open up the San Francisco campus as a <b>software engineer coach</b>.</h5></li>
+                        <li><h5>I was born in Lafayette, Louisiana. I am the youngest of
+                        eight siblings. I enjoy
+                        watching
+                        and
+                            playing sports.</h5></li>
+                        <li><h5>I am a father of two beautiful daughters, Isabella and Victoria. I am outdoorsman
+                        who
+                        loves
+                        fishing
+                            and hunting. </h5></li>
+                        <li><h5>I am
+                        Veteran of the United States Marine Corps. While serving in the
+                        Marines, I am was exposed to many memorable experiences. The lessons learned
+                        will
+                            never be forgotten.</h5></li>
+                        <li><h5>I worked in the oil & gas industry for almost 19 years. The
+                        company that employed me for 19 years, "Schlumberger" enabled me to travel the
+                        world
+                            and experience new heights.</h5></li>
                     </ul>
                 </Col>
             </Row>
@@ -27,19 +40,17 @@ const About = () => {
                 </Col>
                 <Col className="interests-info">
                     <ul>
-                        <li><h5>I love animals - fur momma to two rambunctious cats.</h5></li>
-                        <li><h5>Being outdoors, especially if it involves hiking
-               and camping.</h5></li>
-                        <li><h5>I enjoy traveling internationally, but I have a soft spot for
-                        traveling my own country. My ultimate goal is visiting all 50 states by 30 -
-               currently at 36.</h5></li>
-                        <li><h5>My passion truly lies within helping others, no matter how big or
-              small of an impact I make. </h5></li>
-                        <li><h5>Ice hockey is my favorite sport to watch - <b>Let's go Pens!</b></h5></li>
+                        <li><h5>I love playing sports such as basketball and flag football. I have
+                        developed a
+                        new
+                            hobby over the past few months.</h5></li>
+                        <li><h5>I now enjoy bike riding with my daughters everyday.</h5></li>
+
+                        <li><h5>My favorite sports team is the New Orleans Saints. - <b>WHO DAT!!</b></h5></li>
                     </ul>
                 </Col>
             </Row>
-        </div>
+        </div >
     )
 }
 

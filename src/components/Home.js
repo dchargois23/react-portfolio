@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import mainImg from '../images/projects/Profile.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Home = () => {
