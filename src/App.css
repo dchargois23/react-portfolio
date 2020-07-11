@@ -1,38 +1,270 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower|Open+Sans+Condensed:300|Quicksand|Raleway|Shadows+Into+Light|Slabo+27px');
+
+html {
+  margin: 0;
+  height: 100%;
+  background: #fffcf2;
+}
+
+.app {
+  text-align: center;
+  background: whitesmoke;
+}
+
+h1 {
+  color: blue;
+  font-family: 'Amatic SC';
+  font-size: 5vw;
+}
+
+b {
+  color: blue;
+}
+
+/* ----------- STYLING FOR NAVBAR ----------- */
+
+nav.navbar {
+  background-color: transparent;
+  text-align: right;
+}
+
+a.nav-link {
+  color: blue;
+  font-family: 'Shadows Into Light';
+  font-size: 3vw;
+}
+
+a.navbar-brand {
+  color: blue;
+  font-family: 'Quicksand';
+  font-size: 5vw;
+}
+
+/* ----------- STYLING FOR PROJECTS ----------- */
+
+img.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: contain;
+  margin-top: 3%;
+  padding: 1.5% 1.5%;
+  border-style: solid;
+  border-radius: 3%;
+  border-color: blue;
+  border-width: thin;
+}
+
+div.card-title a {
+  color: blue;
+  text-align: center;
+  font-family: 'Amatic SC';
+  font-weight: 500;
+  font-size: 4vw;
+}
+
+div.card-title a:hover {
+  color: blue;
+}
+
+div.card-subtitle {
+  font-size: 1.45vw;
+  font-family: 'Quicksand';
+  color: #5D576B;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+div.stack.row {
+  align-self: center;
+  margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div.stack.row p {
+  font-size: 1.15vw;
+  color: #5D576B;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+div.links.row {
+  align-self: center;
+  margin-top: 10px;
+}
+
+div.card {
+  border: none;
+  margin-bottom: 4%;
+  margin-top: 3.5%;
+  background: #fffcf2;
+  height: 95%;
+}
+
+div.projects-row-1.row {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+div.projects-row-2.row {
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+}
+
+/* ----------- STYLING FOR HOME ----------- */
+
+div.home {
+  display: grid;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 8%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
 }
 
-.App-link {
-  color: #61dafb;
+div.home h5 {
+  text-align: center;
+  margin-top: 3.5%;
+  font-family: 'Quicksand';
+  font-size: 2vw;
+  color: #3507a0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div.intro.row {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+div.intro-info.col {
+  display: grid;
+  align-items: center;
+}
+
+a.wave {
+  text-decoration: none;
+}
+
+/* SOCIAL ICONS */
+
+div.social-links.row {
+  display: block;
+}
+
+img.social-icon {
+  margin-right: 5%;
+  max-width: 30%;
+  height: auto;
+}
+
+/* MAIN IMAGE */
+
+div.main-img.col {
+  overflow: auto;
+}
+
+img.main-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: auto;
+  border-radius: 7%;
+}
+
+/* ----------- STYLING FOR ABOUT ME ----------- */
+
+div.about-me {
+  text-align: center;
+  margin-top: 3.5%;
+  font-family: 'Quicksand';
+  font-size: 2vw;
+  color: #5D576B;
+  line-height: 2%;
+}
+
+/* MY BACKGROUND INFO */
+
+div.background.row {
+  margin-top: 6%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+div.background-title.col-sm-3 {
+  display: grid;
+  align-items: center;
+}
+
+div.background-info.col {
+  text-align: left;
+}
+
+/* MY STACK INFO */
+
+div.stack.row {
+  margin-top: 2.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+div.stack-title.col-sm-3 {
+  display: grid;
+  align-items: center;
+}
+
+div.language-logos.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.lang-logo {
+  display: inline-block;
+  margin-right: 0.5%;
+  margin-left: 0.5%;
+  margin-bottom: 2.5%;
+  max-width: 25%;
+  height: auto;
+}
+
+/* MY INTERESTS INFO */
+
+div.interests.row {
+  margin-top: 2.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 4%;
+  align-items: center;
+}
+
+div.interests-title.col-sm-3 {
+  display: grid;
+  align-items: center;
+}
+
+div.interests-info.col {
+  text-align: left;
+}
+
+/* ----------- STYLING CONTACT ME ----------- */
+
+button.btn.btn-secondary {
+  background-color: #5D576B;
+  font-family: 'Quicksand';
+}
+
+textarea.form-control,
+input.form-control {
+  border-color: #987284;
+  font-family: 'Quicksand';
+}
+
+/* ----------- STYLING FOR THANK YOU ----------- */
+
+div.thank-you {
+  margin-top: 15%;
+}
+
+p.card-text {
+  color: #5D576B;
+  font-size: 1.45vw;
 }

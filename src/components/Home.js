@@ -3,6 +3,7 @@ import { Row, Col } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import mainImg from '../images/projects/Profile.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import githubLogo from '../images/logos/github_image.png';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
 
                     <Row className="social-links">
                         <a href="https://github.com/dchargois23" target="_blank" rel="noopener noreferrer">
+                            <img className="social-icon" src={githubLogo} alt="Github logo as profile link" />
 
                         </a>
 
@@ -32,4 +34,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default Home;

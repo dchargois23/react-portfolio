@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Col, Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ContactForm = props => {
     return (
@@ -41,4 +42,4 @@ const ContactForm = props => {
     )
 }
 
-export default ContactForm
+export default ContactForm;
