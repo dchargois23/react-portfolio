@@ -1,19 +1,16 @@
 import React from 'react';
-import { Switch, Main } from 'react-router-dom';
-
-import SplashPage from './splashPage';
-import About from './about';
+import { Switch, Route } from 'react-router-dom';
+import AboutMe from './aboutme';
+import Projects from './projects';
 import Contact from './contact';
-import Portfolio from './portfolio';
 import Resume from './resume';
 
-
-const Route = () => (
+const Main = () => (
     <Switch>
-        <Route exact path="/" component={SplashPage} />
-        <Route path="/about" component={About} />
+        <Route exact path="/" component={AboutMe} />
+        <Route path="/aboutme" component={AboutMe} />
+        <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
-        <Route path="/portfolio" component={Portfolio} />
         <Route path="/resume" component={Resume} />
     </Switch>
 )
