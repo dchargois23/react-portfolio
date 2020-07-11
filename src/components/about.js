@@ -1,12 +1,6 @@
 import React from 'react';
 import { Row, Col } from 'reactstrap';
-import javascriptLogo from '../images/languages/javascript-logo.png';
-import railsLogo from '../images/languages/rails-logo.png';
-import rubyLogo from '../images/languages/ruby-logo.png';
-import reactLogo from '../images/languages/react-logo.png';
-import reduxLogo from '../images/languages/redux-logo.png';
-import sqliteLogo from '../images/languages/sqlite-logo.png';
-import postgresLogo from '../images/languages/postgres-logo.png';
+
 
 const About = () => {
     return (
@@ -25,22 +19,6 @@ const About = () => {
               <b> software engineering bootcamp.</b></h5></li>
                         <li><h5>In August 2019, I helped Flatiron School open up the San Francisco campus as a <b>software engineer coach</b>.</h5></li>
                     </ul>
-                </Col>
-            </Row>
-            <Row className="stack">
-                <Col sm="3" className="stack-title">
-                    <h1>Tech Stack</h1>
-                </Col>
-                <Col className="stack-info">
-                    <Row className="language-logos">
-                        <img className="lang-logo" src={rubyLogo} alt="Ruby Logo" />
-                        <img className="lang-logo" src={railsLogo} alt="Rails Logo" />
-                        <img className="lang-logo" src={javascriptLogo} alt="Javascript Logo" />
-                        <img className="lang-logo" src={reactLogo} alt="React Logo" />
-                        <img className="lang-logo" src={reduxLogo} alt="Redux Logo" />
-                        <img className="lang-logo" src={sqliteLogo} alt="SQLite Logo" />
-                        <img className="lang-logo" src={postgresLogo} alt="PostgreSQL Logo" />
-                    </Row>
                 </Col>
             </Row>
             <Row className="interests">
