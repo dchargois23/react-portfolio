@@ -84,7 +84,7 @@ const Projects = () => {
                     <Card className="project">
                         <CardImg top width="50%" src={noteTaker} alt="Note Taker Screenshot" />
                         <Card body>
-                            <CardTitle><a href="https://github.com/dchargois23/Note-Taker">DayBooks</a></CardTitle>
+                            <CardTitle><a href="https://github.com/dchargois23/Note-Taker">Note Taker</a></CardTitle>
                             <CardSubtitle>An application that can be used to write, save, and delete notes..</CardSubtitle>
                             <Row className="stack">
                                 <p><b>Stack:</b>JavaScript</p>
